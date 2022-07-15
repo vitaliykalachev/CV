@@ -3,55 +3,62 @@
     <head>
         <meta charset="UTF-8">
         <title>Vitaliy Kalachev CV</title>
+        
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="Samui Ananas.jpg" width="200" alt="моя фотка">
-                </td>
-                <td>
-                    <h1>Виталий Калачёв</h1>
-                    <p><em>Люблю заниматься <strong>программированием</strong></em></p>
-                    <p>Люблю писать музыку</p>
-                    <p>Люблю делать веган сладости</p>
-                </td>
-            </tr>
+        <table cellspacing="100">
+                
+                    <div class="info">
+                    <img class="avatar" src="Samui Ananas.jpg" alt="моя фотка">
+                    <div class = "info-text">
+                        <h1>Виталий Калачёв</h1>
+                        <p>Люблю заниматься <strong>программированием</strong></p>
+                        <p>Люблю писать музыку</p>
+                        <p>Люблю делать веган сладости</p>
+    
+                        <div class="social">
+                        <h4>Мои социальные сети</h4>
+    
+                        
+                            <a target="_blank" href="//www.instagram.com/vitaliy_kalachev/">Инстаграм</a> |  
+                            <a target="_blank" href="https://t.me/kala4ev">Телеграм</a> 
+                            |
+                            <a href="https://github.com/vitaliykalachev">Github</a>
+                            |
+                            <a target="_blank" target="_blank" href="https://www.facebook.com/vitaliy.kalachev/">Facebook</a> |
+                            <a target="_blank" href="https://www.linkedin.com/in/vitaliy-kalachev/">Linkedin</a>
+                            
+                        
+                    </div>
+                   
+                    </div>
+                    </div>
+             
         </table>
+
         
+    <div class="container">
+    
        
-    <hr>
-
-    <h2>Мои соц сети</h2>
-
-    <ul type="circle">
-        <li><a target="_blank" href="//www.instagram.com/vitaliy_kalachev/">Инстаграм</a></li>
-        <li><a target="_blank" href="https://t.me/kala4ev">Телеграм</a></li>
-        <li><a href="https://github.com/vitaliykalachev">Github</a></li>
-        <li><a target="_blank" target="_blank" href="https://www.facebook.com/vitaliy.kalachev/">Facebook</a></li>
-        <li><a target="_blank" href="https://www.linkedin.com/in/vitaliy-kalachev/">Linkedin</a></li>
+    <div class = "card bg-yellow">
         
-    </ul>
-    <hr>
-    <h2>Мои Хобби</h2>
-    <ol>
+        <h2>Мои Хобби</h2>
+        <ol class="list">
         <li>Блоггер</li>
         <li>Музыкант</li>
         <li>Кондитер</li>
         <li>Программист</li>
     </ol>
-
-    <hr>
-    <h2>Опыт программирования</h2>
-    <p>Проекты</p>
-    <table >
+    </div>
     
 
-        <tr>
-            <th>Язык программирования</th>
-            <th>Нзавание курса</th>
-            <th>Автор курса</th>
-        </tr>
+    <div class = "card bg-green">
+        <h2>Опыт программирования</h2>
+    <p>Проекты</p>
+    <table class="table">
+    
+
         
         <tr>
             <td>Python</td>
@@ -66,26 +73,53 @@
     
     
     </table>
-    <hr>
+    </div>
+    
+    <div class="card bg-red">
     <h2>Youtube</h2>
-    <a href="youtube.html">Посмотреть список</a>
-
-    <hr>
+    
+    <ul class="link-list">
+        <li>
+            <a target="_blank" href="https://www.youtube.com/channel/UCBYcw2M_cqWvW3jxzAwXBjQ"
+            >Мой канал на Ютуб</a>
+        </li>
+    </ul>
+    </div>
+    
+    <div class="contact">
+        
+    
     <h2>Связаться со мной</h2>
 
     <form action="/">
+    <div class="row">
+        <div class="form-group">
+            
+        
         <label for="name">Ваше имя:</label>
         <input type="" id="name" placeholder="Имя">
-        <br>
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Email">
-        <br>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Ваш Email:</label>
+            <input type="email" id="email" placeholder="Email">
+        </div>
+    </div>
+        
+        <div class="form-group">
         <label for="text">Ваше сообщение</label>
-        <br>
+        
         <textarea name="" id="text" cols="15" rows="2"></textarea>
-        <br>
-        <input type="submit" value="Отправить">
+        </div>
+        
+        <input class="btn" type="submit" value="Отправить">
     </form>
+    </div>
+    </div>
+    <div class="position">
+        <div class="box"></div>
+    </div>
+    <div style="margin-bottom: 500px;"></div>
     </body>
 
 </html>
